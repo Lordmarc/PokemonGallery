@@ -15,7 +15,7 @@ const ViewPokemon = ({ pokemon }) => {
           <h2>{pokemon.name}</h2>
         </div>
         <div className="other-info">
-          <div style={{ display: "flex", gap: "5rem" }}>
+          <div style={{ display: "flex", gap: "3rem" }}>
             <p style={{ color: "#F5EFFF" }}>
               <strong style={{ color: "black" }}>Height:</strong>
               {` ${pokemon.height}dm`}

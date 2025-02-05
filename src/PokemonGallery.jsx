@@ -80,7 +80,7 @@ const PokemonGallery = ({ onPokemonSelect, searchQuery }) => {
     const fetchAllPokemon = async () => {
       try {
         const response = await axios.get(
-          "https://pokeapi.co/api/v2/pokemon?limit=1000"
+          "https://pokeapi.co/api/v2/pokemon?limit=1100"
         ); // Fetch all Pokémon
         const pokemonList = response.data.results;
 
